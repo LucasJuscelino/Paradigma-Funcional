@@ -16,5 +16,5 @@ GRUPO LILÁS - Paradigma Funcional
 - [Maria Victoria Araujo Lopes - RGM 29701325] [Github - araujovictoria23]
 - [Mateus Rian da Silva Teixeira - RGM 29343780] [Github - MateusRS0507]
 - [Sarah Souza Dantas - RGM 31221157] [Github - s0zd4]
-- [Lucas Juscelino de Sousa - RGM 29415195] [Github - ]
+- [Lucas Juscelino de Sousa - RGM 29415195] [Github - LucasJuscelino ]
 - [Breno Coelho Sousa - RGM 30132029][Github - coelhobreno]
