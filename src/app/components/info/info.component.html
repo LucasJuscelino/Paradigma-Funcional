@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="header" (click)="open()">
+        <h1>{{ title }}</h1> 
+        <img src="imgs/arrow.png" alt="arrow" [style.transform]="rotate">
+    </div>
+    @if(isOpen){
+        <div class="content">
+            @for(content of contents; track content){
+                <p [innerHTML]="content"></p>
+            }
+        </div>
+    }
+</div>

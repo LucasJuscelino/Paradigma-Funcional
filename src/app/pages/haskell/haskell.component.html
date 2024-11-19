@@ -1,0 +1,50 @@
+<div class="container">
+    <h1>Linguagem Haskell</h1>
+    <header>
+        <img src="imgs/logo.png" alt="logo">
+        <div class="introduction">
+            <h2>História</h2>
+            <p>Haskell foi desenvolvido no final dos anos 1980 por uma comunidade de acadêmicos e pesquisadores, liderada por Simon Peyton Jones e outros. O nome da linguagem é uma homenagem ao matemático Haskell Curry, pioneiro da lógica combinatória.</p>
+            <p>Durante a conferência FPCA'87 (Functional Programming Languages And Computer Architecture), esse grupo de estudiosos de linguagens funcionais sentiu a necessidade de definir e projetar uma linguagem funcional comum, de modo que novas ideias pudessem evoluir a partir dela. Os principais objetivos para o design dessa linguagem incluíam:</p>
+            <ul>
+                <li>Ser adequada para ensino, pesquisa e aplicações, inclusive em sistemas de grande escala;</li>
+                <li>Ter sua sintaxe e semântica completamente descritas em publicações;</li>
+                <li>Não ser proprietária, permitindo que qualquer pessoa pudesse implementá-la e distribuí-la;</li>
+                <li>Basear-se em princípios amplamente aceitos;</li>
+                <li>E, finalmente, reduzir a diversidade desnecessária entre as linguagens funcionais existentes.</li>
+            </ul>
+            <p>Em meados de 1997, Haskell havia atingido sua quarta versão, demonstrando-se funcional e evolutiva em relação às demais linguagens da época. Então, surgiu a necessidade de estabelecer uma versão definitiva. Assim, ainda em 1997, foi lançada a versão Haskell 98, refletindo seu estágio de maturidade e estabilidade. Inicialmente, a biblioteca padrão que acompanhava a implementação era a Prelude.hs, mas ao longo dos anos, várias outras bibliotecas foram adicionadas.</p>
+            <p>Fonte: Livro "Haskell: Uma Abordagem Prática" - Claudio Cesar de Sá e Márcio Ferreira da Silva.</p>
+        </div>
+    </header>
+    <div class="simon">
+        <app-info
+        title="Simon Peyton-Jones"
+        [contents]="['<img src=&quot;imgs/simon.png&quot; alt=&quot;Simon Peyton-Jones&quot; width=&quot;365    px&quot;/>']"
+        ></app-info>
+        <app-info
+        title="Sobre Simon Peyton-Jones"
+        [contents]="['<strong>Alma mater:</strong></br> Universidade de Cambridge (BSc, Dipl.)', '<strong>Conhecido por:</strong></br> Glasgow Haskell Compiler, C--', '<strong>Prêmios:</strong></br> ACM Fellow (2004)</br> Carreira Científica', '<strong>Áreas:</strong></br> Linguagens de programação, Programação funcional', '<strong>Instituições:</strong></br> Epic Games, University College London, University of Glasgow, Universidade de Cambridge, Microsoft Research, Computing At School', '<strong>Site:</strong> <a href=&quot;https://simon.peytonjones.org/&quot; target=&quot;_blanck&quot;>simon.peytonjones.org</a>']"
+        ></app-info>
+    </div>
+    <div class="aplicacoes">
+        <h2>Aplicações e Características</h2>
+        <h3>Características</h3>
+        <ul>
+            <li>Puramente funcional: Haskell é uma linguagem puramente funcional, ou seja, evita efeitos colaterais. Todas as funções em Haskell são matematicamente puras.</li>
+            <li>Avaliação preguiçosa (lazy evaluation): Haskell só avalia expressões quando realmente necessário. </li>
+            <li>Tipagem forte e estática: O sistema de tipos de Haskell é muito robusto e estático, permitindo detectar muitos erros em tempo de compilação. </li>
+            <li>Inferência de tipos: Haskell pode inferir automaticamente os tipos das variáveis, o que reduz a quantidade de código que precisa ser escrito. </li>
+            <li>Sistema de tipos avançado: Suporte a tipos algébricos, classes de tipos, e polimorfismo. </li>
+            <li>Imutabilidade: Variáveis em Haskell são imutáveis por padrão. </li>
+        </ul>
+        <h3>Aplicações</h3>
+        <p>Haskell é usado em ambientes acadêmicos e na indústria em áreas como compiladores, sistemas financeiros, processamento de dados, verificação formal, entre outros. </p>
+        <p>Exemplos incluem empresas como Facebook (Spam detection), GitHub (semântica de tipos para integrações) e projetos de verificação de código. </p>
+        <p>Um compilador é o software encarregado de realizar a conversão de uma linguagem de alto nível, como no caso a linguagem Haskell, para a linguagem de máquina, que é a utilizada pelo computador para executar os algoritmos que desenvolveremos. Atualmente, os compiladores GHC e Hugs são os mais amplamente usados com a linguagem Haskell.</p>
+        <p>Fonte: Livro "Real World Haskell" - Bryan O'Sullivan, Don Stewart, e John Goerzen.</p>
+        <p>Artigo: "Why Functional Programming Matters" - John Hughes.</p>
+    </div>
+    <app-button name="Voltar" link="/linguagens"></app-button>
+    <app-button name="Próximo" link="/vantagens&desvantagens" class="btn"></app-button>
+</div>

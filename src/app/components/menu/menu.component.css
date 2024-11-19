@@ -1,0 +1,35 @@
+.container {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    & .logo {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        & img {
+            width: 50px;
+        }
+
+        & a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+        }
+    }
+
+    & .options {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        list-style: none;
+
+        & li > a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+        }
+    }
+}

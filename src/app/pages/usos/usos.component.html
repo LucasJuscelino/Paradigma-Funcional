@@ -1,0 +1,41 @@
+<div class="container">
+    <h1>Exemplos de empresas que usam o paradigma funcional</h1>
+    <p>Diferentemente das programações imperativa e orientada a objetos, a programação funcional parte do princípio de que tudo são funções. Não existe uma lista de instruções ou objetos para o computador executar, mas uma sequência de funções matemáticas que, juntas, resolvem um problema. </p>
+    <p>"Um exemplo é você pintar um carro usando a programação orientada a objetos; ele vai terminar com uma cor diferente e sem registro de ter tido outra cor antes". No paradigma funcional, é como se você terminasse com um carro com a cor nova, mas ainda mantivesse outro com a cor antiga.</p>
+
+    <h2>Nubank</h2>
+    <p>O Nubank foi fundado em 2013, e a empresa procurou tecnologias que ajudassem a atingir suas metas empresariais, mantendo a eficiência e permitindo um crescimento seguro e sustentável. Naquele momento, o paradigma funcional se mostrou a melhor escolha para os desafios que enfrentavam. </p>
+    <p>O princípio de imutabilidade do paradigma funcional é um aliado crucial para uma instituição financeira, pois garante um registro de todas as informações. Além disso, é possível voltar no tempo e recuperá-las caso algo seja computado de forma incorreta. </p>
+    <p>O paradigma funcional também contribui para o processo de internacionalização do Nubank. Como é um paradigma imutável, não é necessário mudar tudo desde o início. A lógica do sistema financeiro de um país pode ser diferente, mas a empresa consegue usar a mesma base para todos. </p>
+    <p>Dessa forma, eles conseguem aproveitar todas as vantagens da programação funcional para construir soluções que devolvem às pessoas o controle sobre o seu dinheiro – independentemente do país.</p>
+    <p>Fonte: <a href="https://blog.nubank.com.br/programacao-funcional-o-que-e-relacao-nubank/">https://blog.nubank.com.br/programacao-funcional-o-que-e-relacao-nubank/</a></p>
+
+    <h2>Código em Python que se utiliza o paradigma funcional</h2>
+    <pre>
+        <code>
+        varMutable = 3
+        print(varMutable) # 3
+
+
+        # Função pura: não altera estado externo, apenas retorna um novo valor
+        def pure_function(value):
+            return value + 1
+
+
+        #Cria uma nova variável com o novo valor
+        new_var = pure_function(varMutable)
+
+
+        print(varMutable) #3 (permanece imutável)
+        print(new_var) #4 (novo valor retornado pela função pura)
+        </code>
+    </pre>
+
+    <h2>Explicando o Código</h2>
+    <p>Imutabilidade: A variável varMutable nunca é alterada. A função pure_function recebe varMutable como argumento e retorna um novo valor (sem modificar o original). </p>
+    <p>Função pura: A função pure_function é pura, pois não tem efeitos colaterais e não modifica o estado global, apenas retorna um novo valor. </p>
+    <p>Com isso, você segue o paradigma funcional e mantém o estado imutável no código. </p>
+    <p>Fonte: <a href="">https://medium.com/trainingcenter/programa%C3%A7%C3%A3o-funcional-para-iniciantes-9 e2beddb5b43</a></p>
+    <app-button name="Voltar" link="/vantagens&desvantagens"></app-button>
+    <app-button name="Próximo" link="/refs" class="btn"></app-button>
+</div>

@@ -1,0 +1,26 @@
+.container {
+    width: 1000px;
+    margin: auto;
+
+    & h1 {
+        margin: 35px 0 100px 0;
+        color: var(--primary-color);
+        border-top: 3px solid rgb(209, 209, 209);
+        border-bottom: 3px solid rgb(209, 209, 209);
+        padding: 10px 0;
+        font-size: 1.8rem;
+    }   
+
+    & .infos > ul {
+        list-style: square;
+
+        & li {
+            margin-bottom: 50px;
+        }
+    }
+
+    & .btn {
+        position: absolute;
+        right: 150px;
+    }
+}
