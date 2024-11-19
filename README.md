@@ -5,6 +5,11 @@ Este repositório foi desenvolvido para a apresentação de um projeto acadêmic
 - Exemplos de código em haskell para resolução de problemas e exemplos de uso.
 - Recursos adicionais, como artigos e tutoriais sobre Haskell
 - Interface web responsiva para a apresentaçãodo projeto, usando HTML, CSS, JavaScript.
+
+## Repositório do site
+O presente site foi criado e publicado na plataforma do google sites, no entanto para atender os pré-requisitos, foi desenvolvido um site também nas linguagens HTML, CSS e Typescript para sua publicação no Github.
+O link para acessar o site onde está publicado, se encontra no seguinte link:
+https://sites.google.com/view/paradigma-funcional-grupolilas/in%C3%ADcio
   
 ## PRÉ-REQUISITO 
 1. **Navegador da Web**: Tenha um navegador instalado, como Google Chrome, Mozilla Firefox ou Safari.
