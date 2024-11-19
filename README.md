@@ -12,9 +12,9 @@ Este repositório foi desenvolvido para a apresentação de um projeto acadêmic
 3. **Arquivos do Projeto**: Inclui: - `index.html`: Página principal do site. - `style.css`: Estilos personalizados para o site. - `script.js`: Funcionalidades em JavaScript.
 ## Autores
 GRUPO LILÁS - Paradigma Funcional 
-- [Luiza Gabrielly Vitorino da costa - RGM 29951020] 
-- [Maria Victoria Araujo Lopes - RGM 29701325] 
-- [Mateus Rian da Silva Teixeira - RGM 29343780]
-- [Sarah Souza Dantas - RGM 31221157]
-- [Lucas Juscelino de Sousa - RGM 29415195]
-- [Breno Coelho Sousa - RGM 30132029]
+- [Luiza Gabrielly Vitorino da costa - RGM 29951020] [Github - LuizaGVitorino]
+- [Maria Victoria Araujo Lopes - RGM 29701325] [Github - araujovictoria23]
+- [Mateus Rian da Silva Teixeira - RGM 29343780] [Github - MateusRS0507]
+- [Sarah Souza Dantas - RGM 31221157] [Github - s0zd4]
+- [Lucas Juscelino de Sousa - RGM 29415195] [Github - ]
+- [Breno Coelho Sousa - RGM 30132029][Github - coelhobreno]
