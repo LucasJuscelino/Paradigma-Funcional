@@ -14,7 +14,7 @@ https://sites.google.com/view/paradigma-funcional-grupolilas/in%C3%ADcio
 ## PRÉ-REQUISITO 
 1. **Navegador da Web**: Tenha um navegador instalado, como Google Chrome, Mozilla Firefox ou Safari.
 2. **Haskell**: Para executar os exemplos de código, é necessário ter um interpretador Haskell. 
-3. **Arquivos do Projeto**: Inclui: - `index.html`: Página principal do site. - `style.css`: Estilos personalizados para o site. - `script.js`: Funcionalidades em JavaScript.
+3. **Arquivos do Projeto**: Inclui: - `index.html`: Página principal do site. - `style.css`: Estilos personalizados para o site. - `script.js`: Funcionalidades em TypeScript.
 ## Autores
 GRUPO LILÁS - Paradigma Funcional 
 - [Luiza Gabrielly Vitorino da costa - RGM 29951020] [Github - LuizaGVitorino]
